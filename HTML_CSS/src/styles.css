@@ -1,0 +1,44 @@
+body{
+    font-family: sans-serif;
+    background-color: lightgreen;
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.first-block{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: skyblue;
+    position: absolute;
+    z-index: 1;
+}
+
+.second-block{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: lightblue;
+    position: absolute;
+    margin-top: 25px;
+    z-index: -1;
+}
+.third-block{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: blue;
+    position: absolute;
+    margin-top: 50px;
+    z-index: -2;
+}
+.fourth-block{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: darkblue;
+    position: absolute;
+    margin-top: 75px;
+    z-index: -3;
+}
